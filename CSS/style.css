@@ -171,3 +171,38 @@ li {
 	display: flex;
 	justify-content: space-evenly;
 }
+
+#updates-form {
+	width: 60%;
+	height: 200px;
+	background-color: rgba(255, 244, 214, 1);
+	margin: 50px auto;
+}
+
+#updates-form>*{
+	margin-top: 80px;
+}
+
+#updates-form>#email {
+	margin-left: 30%;
+	margin-right: 0;
+	width: 30%;
+	font-size: 25px;
+}
+#updates-form>.btn {
+	border-radius: 5px;
+	margin: 0;
+	filter: none;
+}
+
+footer {
+	background-color: black;
+	height: 150px;
+}
+footer>h2 {
+	padding-top: 50px;
+}
+footer>* {
+	color: white;
+	text-align: center;
+}

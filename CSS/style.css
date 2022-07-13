@@ -12,7 +12,7 @@ a {
 }
 
 section {
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 h1 {
@@ -139,4 +139,31 @@ li {
 }
 #custom-amount-form>* {
 	display: block;
+}
+
+.plan {
+	width: 20%;
+	height: 250px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#food {
+	background-color: rgba(79, 157, 166, 0.1);
+}
+#shelter {
+	background-color: rgba(255, 89, 89, 0.1);
+}
+#education {
+	background-color: rgba(255, 244, 214, 1);
+}
+
+.plan>h3 {
+	margin: 10px 0;
+}
+
+#plans {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-evenly;
 }
